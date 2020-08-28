@@ -88,8 +88,8 @@ def ver_num(elemento):
 def verifica_reservada(token):
     """Verifica se determinado token é
     reservado e retorna um código para o mesmo"""
-    reservada_list = ['int', 'float', 'char', 'if', 'else', 'printf',
-                      'for', 'while', 'return', 'continue', 'break', 'read']
+    reservada_list = ['int', 'double', 'float', 'real', 'break', 'case',
+                      'char', 'const', 'continue']
     cont = 0
     for i in reservada_list:
         cont = cont + 1
